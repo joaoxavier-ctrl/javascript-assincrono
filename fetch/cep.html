@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+    <link rel="stylesheet" href="style-cep.css">
+</head>
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <h1 class="titulo">Digite seu CEP</h1>
+            <form action="" id="form">
+                <label for="cep"></label>
+                <span>
+                    <input type="text" name="cep" id="cep" required>
+                    <input type="button" value="buscar" id="btnCep">
+                </span>
+                <div id="resultado"></div>
+            </form>
+        </div>
+        <div class="conteudo bitcoin">
+            <p>Valor da bitcoin:</p>
+            <p class="btc"></p>
+        </div>
+    </div>
+    <div class="piadocas">
+        <p class="piada"></p>
+        <button class="proxima">proxima</button>
+    </div>
+    <script src="script-cep.js"></script>
+</body>
+</html>
