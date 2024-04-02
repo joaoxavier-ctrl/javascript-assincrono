@@ -281,6 +281,14 @@ body, h1, h2, h3, ul, li, p, dd, dt, dl{
     background: red;
   }
 
+  .btc-preco{
+    background: #4f4;
+    padding: .2rem .5rem;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 1ch;
+  }
+
   @media (max-width: 700px){
     .grid-container{
       grid-template-columns: 1fr;
